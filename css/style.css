@@ -325,10 +325,9 @@ textarea:-ms-input-placeholder      {color:#fff;}
 
 /* media */
 
-@media (max-width: 576px) {
-
+@media (max-width: 768px) {
     .page {
-        display: none;
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g";
     }
 }
 
